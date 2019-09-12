@@ -2,6 +2,7 @@
 ;;; .doom.d/packages.el
 
 (package! vue-mode :recipe (:host github :repo "AdamNiederer/vue-mode"))
+(package! pandoc :recipe (:host github :repo "jgm/pandoc"))
 
 ;;; Examples:
 ;; (package! some-package)
