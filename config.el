@@ -1,7 +1,15 @@
 ;;; .doom.d/config.el -*- lexical-binding: t; -*-
 
 ;; Place your private configuration here
-(load-theme 'doom-Iosvkem t)
+(load-theme 'doom-snazzy t)
+
+(setq
+ display-line-numbers-type 'relative
+ )
+
+(setq
+ doom-font (font-spec :family "Input Mono" :size 20)
+ )
 
 (setq
  fancy-splash-image "~/Documents/kufi.png"
