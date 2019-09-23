@@ -1,8 +1,9 @@
 ;; -*- no-byte-compile: t; -*-
 ;;; .doom.d/packages.el
 
-(package! vue-mode :recipe (:host github :repo "AdamNiederer/vue-mode"))
+(package! vue-mode)
 (package! pandoc :recipe (:host github :repo "jgm/pandoc"))
+(package! cider)
 
 ;;; Examples:
 ;; (package! some-package)
