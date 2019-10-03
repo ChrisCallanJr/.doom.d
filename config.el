@@ -1,7 +1,7 @@
 ;;; .doom.d/config.el -*- lexical-binding: t; -*-
 
 ;; Place your private configuration here
-(load-theme 'doom-snazzy t)
+(load-theme 'doom-outrun-electric t)
 
 (setq
  display-line-numbers-type 'relative
