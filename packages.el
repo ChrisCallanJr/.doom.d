@@ -4,6 +4,8 @@
 (package! vue-mode)
 (package! pandoc :recipe (:host github :repo "jgm/pandoc"))
 (package! cider)
+(package! org-pomodoro)
+(package! org-jira)
 
 ;;; Examples:
 ;; (package! some-package)
