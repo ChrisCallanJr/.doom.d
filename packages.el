@@ -6,6 +6,7 @@
 (package! cider)
 (package! org-pomodoro)
 (package! org-jira)
+(package! carbon-now-sh)
 
 ;;; Examples:
 ;; (package! some-package)
