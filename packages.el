@@ -1,12 +1,12 @@
 ;; -*- no-byte-compile: t; -*-
 ;;; .doom.d/packages.el
 
+(package! carbon-now-sh)
 (package! vue-mode)
 (package! pandoc :recipe (:host github :repo "jgm/pandoc"))
 (package! cider)
 (package! org-pomodoro)
 (package! org-jira)
-(package! carbon-now-sh)
 
 ;;; Examples:
 ;; (package! some-package)

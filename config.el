@@ -8,7 +8,7 @@
  )
 
 (setq
- doom-font (font-spec :family "Input Mono" :size 20)
+ doom-font (font-spec :family "Input Mono" :size 16)
  )
 
 (setq
