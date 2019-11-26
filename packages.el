@@ -7,6 +7,7 @@
 (package! cider)
 (package! org-pomodoro)
 (package! org-jira)
+(package! lunar-mode-line)
 
 ;;; Examples:
 ;; (package! some-package)
