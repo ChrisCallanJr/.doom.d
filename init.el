@@ -26,7 +26,7 @@
        ;;fill-column       ; a `fill-column' indicator
        hl-todo           ; highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
        ;;hydra
-       ;;indent-guides     ; highlighted indent columns
+       indent-guides     ; highlighted indent columns
        modeline          ; snazzy, Atom-inspired modeline, plus API
        nav-flash         ; blink the current line after jumping
        ;;neotree           ; a project drawer, like NERDTree for vim
@@ -76,7 +76,7 @@
        ;;ein               ; tame Jupyter notebooks with emacs
        eval              ; run code, run (also, repls)
        flycheck          ; tasing you for every semicolon you forget
-       ;;flyspell          ; tasing you for misspelling mispelling
+       flyspell          ; tasing you for misspelling mispelling
        ;;gist              ; interacting with github gists
        (lookup           ; helps you navigate your code and documentation
         +docsets)        ; ...or in Dash docsets locally
@@ -145,7 +145,7 @@
        ;;solidity          ; do you need a blockchain? No.
        ;;swift             ; who asked for emoji variables?
        ;;terra             ; Earth and Moon in alignment for performance.
-       ;;web               ; the tubes
+       web               ; the tubes
        ;;vala              ; GObjective-C
 
 
@@ -185,7 +185,7 @@
  '(custom-enabled-themes (quote (doom-fairy-floss)))
  '(custom-safe-themes
    (quote
-    ("b462d00de785490a0b6861807a360f5c1e05b48a159a99786145de7e3cce3afe" "a16e816774b437acb78beb9916a60ea236cfcd05784227a7d829623f8468c5a2" "ab9456aaeab81ba46a815c00930345ada223e1e7c7ab839659b382b52437b9ea" "b0fd04a1b4b614840073a82a53e88fe2abc3d731462d6fde4e541807825af342" "f8c30fa07ba7e8fe884f22b428dae6724955fa61ad84a658c3b0164ae391fb52" "8047ac280914cbe8dcdc489703c398f0941339cfca77dfc09f3641f1f040267c" "e95ad48fd7cb77322e89fa7df2e66282ade015866b0c675b1d5b9e6ed88649b4" "e838d6375a73fda607820c65eb3ea1f9336be7bd9a5528c9161e10c4aa663b5b" "e3c87e869f94af65d358aa279945a3daf46f8185f1a5756ca1c90759024593dd" "8c847a5675ece40017de93045a28ebd9ede7b843469c5dec78988717f943952a" "4e132458143b6bab453e812f03208075189deca7ad5954a4abb27d5afce10a9a" "34c99997eaa73d64b1aaa95caca9f0d64229871c200c5254526d0062f8074693" default)))
+    ("6bacece4cf10ea7dd5eae5bfc1019888f0cb62059ff905f37b33eec145a6a430" "b462d00de785490a0b6861807a360f5c1e05b48a159a99786145de7e3cce3afe" "a16e816774b437acb78beb9916a60ea236cfcd05784227a7d829623f8468c5a2" "ab9456aaeab81ba46a815c00930345ada223e1e7c7ab839659b382b52437b9ea" "b0fd04a1b4b614840073a82a53e88fe2abc3d731462d6fde4e541807825af342" "f8c30fa07ba7e8fe884f22b428dae6724955fa61ad84a658c3b0164ae391fb52" "8047ac280914cbe8dcdc489703c398f0941339cfca77dfc09f3641f1f040267c" "e95ad48fd7cb77322e89fa7df2e66282ade015866b0c675b1d5b9e6ed88649b4" "e838d6375a73fda607820c65eb3ea1f9336be7bd9a5528c9161e10c4aa663b5b" "e3c87e869f94af65d358aa279945a3daf46f8185f1a5756ca1c90759024593dd" "8c847a5675ece40017de93045a28ebd9ede7b843469c5dec78988717f943952a" "4e132458143b6bab453e812f03208075189deca7ad5954a4abb27d5afce10a9a" "34c99997eaa73d64b1aaa95caca9f0d64229871c200c5254526d0062f8074693" default)))
  '(elfeed-feeds
    (quote
     ("https://getpocket.com/users/splitcircle/feed/all")))
@@ -193,6 +193,7 @@
  '(jdee-db-active-breakpoint-face-colors (cons "#191C25" "#80A0C2"))
  '(jdee-db-requested-breakpoint-face-colors (cons "#191C25" "#A2BF8A"))
  '(jdee-db-spec-breakpoint-face-colors (cons "#191C25" "#434C5E"))
+ '(js-indent-level 2)
  '(objed-cursor-color "#C16069")
  '(vc-annotate-background "#2E3440")
  '(vc-annotate-color-map
