@@ -27,6 +27,8 @@
  treemacs-position 'right
  )
 
+(add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
+
 (map! 
   :n "C-h" #'evil-window-left
   :n "C-j" #'evil-window-down
