@@ -1,31 +1,18 @@
 ;;; .doom.d/config.el -*- lexical-binding: t; -*-
 
 ;; Place your private configuration here
-(load-theme 'doom-material t)
+;; load org mode config
+(load! "+org")
 
-(setq
- display-line-numbers-type 'relative
- )
+(load-theme 'doom-dark+ t)
 
-(setq
- doom-font (font-spec :family "Input Mono" :size 14)
- )
+(setq display-line-numbers-type 'relative)
 
-(setq
- fancy-splash-image "~/Documents/kufi.png"
- )
+(setq doom-font (font-spec :family "Input Mono" :size 14))
 
-(setq
- mac-right-control-modifier 'meta
- )
+(setq mac-right-control-modifier 'meta)
 
-(setq
- jiralib-url "https://dramafever.atlassian.net/"
- )
-
-(setq
- treemacs-position 'right
- )
+(setq treemacs-position 'right)
 
 (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
 
