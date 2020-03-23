@@ -4,15 +4,19 @@
 ;; load org mode config
 (load! "+org")
 
-(load-theme 'doom-dark+ t)
+(setq doom-theme 'doom-rogue)
 
 (setq display-line-numbers-type 'relative)
 
-(setq doom-font (font-spec :family "Input Mono" :size 14))
+(setq doom-font (font-spec :family "Input Mono" :size 18))
 
 (setq mac-right-control-modifier 'meta)
 
 (setq treemacs-position 'right)
+
+(custom-set-faces!
+  '(font-lock-comment-face :slant italic)
+  '(font-lock-doc-face :slant italic))
 
 (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
 
