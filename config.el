@@ -4,11 +4,11 @@
 ;; load org mode config
 (load! "+org")
 
-(setq doom-theme 'doom-rogue)
+(setq doom-theme 'doom-tomorrow-day)
 
 (setq display-line-numbers-type 'relative)
 
-(setq doom-font (font-spec :family "Input Mono" :size 18))
+(setq doom-font (font-spec :family "Input Mono" :size 20))
 
 (setq mac-right-control-modifier 'meta)
 
